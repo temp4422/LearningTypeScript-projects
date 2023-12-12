@@ -1,5 +1,6 @@
 {
 	"name": "primitive-cooking",
+	"type": "module",
 	"scripts": {
 		"test": "tsc",
 		"test:solutions": "tsc ./*/solution.ts",

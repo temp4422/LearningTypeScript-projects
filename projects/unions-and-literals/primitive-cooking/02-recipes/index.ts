@@ -1,6 +1,6 @@
 // Please clarify any overly wide (permissive) type annotations here! ✨
-let difficulty: number;
-let group: string;
+let difficulty: 1 | 2 | 3;
+let group: "appetizer" | "entree" | "desert";
 let title: string;
 
 // Start with something quick and painless to prepare...
@@ -17,7 +17,7 @@ console.log(`[${group}] ${title}: ${difficulty}/3 difficulty`);
 
 // Make a real impact with fancy delectable desserts...
 difficulty = 3;
-group = "dessert";
+group = "desert";
 title = "Coconut Chocolate Ganache";
 console.log(`[${group}] ${title}: ${difficulty}/3 difficulty`);
 
