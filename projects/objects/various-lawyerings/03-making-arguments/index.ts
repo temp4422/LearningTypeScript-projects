@@ -1,4 +1,13 @@
 // Write your types here! ✨
+type Motion = {
+	annoyedJustice?: boolean;
+	classification: string;
+	deliberationHours: number;
+	from: "defendant" | "plaintiff";
+	reason: string;
+	status: "allowed" | "denied" | "pending";
+	step: "pre-trial" | "post-trial";
+};
 
 export const motions: Motion[] = [
 	{
@@ -29,7 +38,7 @@ export const motions: Motion[] = [
 	},
 	{
 		classification: "new trial",
-		estimatedDeliberationHours: 3,
+		deliberationHours: 3,
 		from: "defendant",
 		reason: "The duel's been accepted. There's no backing out. That's the law.",
 		status: "pending",
