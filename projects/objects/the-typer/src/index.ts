@@ -1,6 +1,18 @@
 // Write your types here! ✨
+type TheMap = {
+	name: string;
+	proximity: number;
+	type: string;
+	through: any;
+	shortcut?: any;
+	around?: any;
+	downstream?: any;
+	upstream?: any;
+	treasure?: any;
+	area?: any;
+};
 
-let current = {
+let current: TheMap = {
 	name: "Woesong Bridge",
 	proximity: 100,
 	through: {
