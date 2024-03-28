@@ -1,4 +1,10 @@
 {
 	"extends": "../../../../tsconfig.json",
-	"include": ["."]
+	"include": ["."],
+	"compilerOptions": {
+		"target": "ES2022",
+		"module": "CommonJS",
+		// "outDir": "out",
+		"sourceMap": true
+	}
 }
