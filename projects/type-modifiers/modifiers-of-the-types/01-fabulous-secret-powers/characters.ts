@@ -12,7 +12,7 @@ export const characters = [
 	`{
         "name": "He-Man",
         "powers": ["agility", "durability", "speed", "strength", "transformation"],
-        "side": "goods"
+        "side": "good"
     }`,
 	`{
         "name": "Skeletype",
