@@ -1,4 +1,7 @@
 {
 	// Write your configuration options here! ✨
-	"include": ["."]
+	"include": ["."],
+	"compilerOptions": {
+		"resolveJsonModule": true
+	}
 }
