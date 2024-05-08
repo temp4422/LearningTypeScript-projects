@@ -1,10 +1,14 @@
-import { Conflict, ConflictCreator, conflictCreators } from "./conflict";
+import { type Setup, type SetupCreator, setupCreators } from "./setup.js";
 import {
-	Resolution,
-	ResolutionCreator,
+	type Conflict,
+	type ConflictCreator,
+	conflictCreators,
+} from "./conflict.js";
+import {
+	type Resolution,
+	type ResolutionCreator,
 	resolutionCreators,
-} from "./resolution";
-import { Setup, SetupCreator, setupCreators } from "./setup";
+} from "./resolution.js";
 
 function getRandom<T>(items: T[]) {
 	return items[Math.floor(Math.random() * items.length)];

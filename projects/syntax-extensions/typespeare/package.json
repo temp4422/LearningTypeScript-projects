@@ -1,5 +1,6 @@
 {
 	"name": "typespeare",
+	"type": "module",
 	"scripts": {
 		"test": "tsc",
 		"test:solutions": "tsc ./*/*solution*.ts",
